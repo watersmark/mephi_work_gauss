@@ -30,8 +30,3 @@ class Gauss_Random:
 
     def __repr__(self) -> str:
         return "Gauss_Random object"
-
-
-print(random.gauss(5, 2))
-object = Gauss_Random(5, 2)
-print(object.get_random_value())
